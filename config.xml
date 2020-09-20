@@ -23,11 +23,12 @@
     <plugin name="cordova-plugin-splashscreen" spec="6.0.0" />
     <plugin name="cordova-plugin-statusbar" spec="2.4.2" />
     <plugin name="cordova-plugin-camera" spec="5.0.0" />
-    <plugin name="cordova-plugin-inappbrowser" spec="3.2.0" />
-  
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    
     <content src="index.html" />
     <access origin="*"/>
     <allow-intent href="*" />
+    <allow-navigation href="*" />
 
     <!-- Icons and Splashscreens-->
     <platform name="android">
