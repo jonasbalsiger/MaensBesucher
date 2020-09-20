@@ -22,6 +22,10 @@
     <plugin name="cordova-plugin-device-orientation" spec="2.0.1" />
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-statusbar" spec="2.4.2" />
+    <plugin name="cordova-plugin-camera" spec="5.0.0" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
   
     <content src="index.html" />
     <access origin="*"/>
